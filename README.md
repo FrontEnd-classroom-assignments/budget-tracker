@@ -25,13 +25,16 @@ Step one can be started after the TodoList is implemented in the course
 - Monthly limit and alert.
 
 ## Step 2
-Step two can be started after the Material UI is studied in the course
+Step two can be started after the Material UI is studied in the course. In this phase you'll enhance the Expense Tracker by using the Materia UI components.
 
 **Material UI component:**
+- Create an app bar for the application that show the header text Expense Tracker
 - Replace the `input` and `button` elements in the Expense Tracker with suitable Material UI components.
+- Input elements and button should be horizontally aligned and add proper spacing and margins between each component to ensure user-friendly ui.
 
 **Date Picker:**
 - Replace the current date input field in the Expense Tracker with the MUI-X Date Picker (https://mui.com/x/react-date-pickers/date-picker/).
 - In the table where expense entries are listed, format the displayed date in format `yyyy-mm-dd`.
 
-
+## Step 3
+Step three can be started after the MUI-X DataGrid is studied in the course.
