@@ -1,6 +1,6 @@
 # Expense Tracker Assignment
 
-Create a simple Expense Tracker built with React, TypeScript, and Vite.
+Create a simple Expense Tracker built with React and TypeScript.
 
 ## Features
 - Add expenses with description, amount, type (income/outcome), and date
