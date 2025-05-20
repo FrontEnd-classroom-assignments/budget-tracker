@@ -37,4 +37,11 @@ Step two can be started after the Material UI is studied in the course. In this 
 - In the table where expense entries are listed, format the displayed date in format `yyyy-mm-dd`.
 
 ## Step 3
-Step three can be started after the MUI-X DataGrid is studied in the course.
+Step three can be started after the MUI-X DataGrid is studied in the course. In this step, you will upgrade the expense list display by replacing the basic HTML table with the MUI-X `DataGrid` component for improved functionality.
+Remove the existing HTML table used to display expense entries.
+
+- Implement the MUI-X `DataGrid` component to present the data instead.
+- Configure appropriate columns, such as Title, Amount, Date, and any other relevant fields.
+- Enable useful features like sorting, filtering, and pagination for better user experience.
+
+
