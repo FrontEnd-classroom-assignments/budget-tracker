@@ -1,4 +1,4 @@
-# Expense Tracker Assignment
+# Budget Tracker Assignment
 
 Create a simple Budget Tracker built with React and TypeScript.
 ## Step 1
