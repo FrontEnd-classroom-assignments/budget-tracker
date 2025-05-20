@@ -46,6 +46,8 @@ Remove the existing HTML table used to display budget item entries.
 - Configure appropriate columns, such as Title, Amount, Date, and any other relevant fields.
 - Enable useful features like sorting, filtering, and pagination for better user experience.
 
+![Expense tracker](./src/assets/screenshot_muigrid.png)
+
 ### Bonus
 - Show the amount in 🔴 red color for expense items and 🟢 green color for income items.
 - Organize the DataGrid rows by type, grouping items into income and expense categories.
