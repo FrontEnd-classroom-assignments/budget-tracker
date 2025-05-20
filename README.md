@@ -45,5 +45,5 @@ Remove the existing HTML table used to display budget item entries.
 - Enable useful features like sorting, filtering, and pagination for better user experience.
 
 ### Bonus
-- Show the amount in 🔴 red for expense items and 🟢 green for income items.
-- - Organize the DataGrid rows by type, grouping items into income and expense categories.
+- Show the amount in 🔴 red color for expense items and 🟢 green color for income items.
+- Organize the DataGrid rows by type, grouping items into income and expense categories.
