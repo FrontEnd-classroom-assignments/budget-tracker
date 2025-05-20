@@ -32,7 +32,7 @@ Step two can be started after the Material UI is studied in the course. In this 
 - Replace the `input` and `button` elements in the Expense Tracker with suitable Material UI components.
 - Input elements and button should be horizontally aligned and add proper spacing and margins between each component to ensure user-friendly ui.
 
-![Expense tracker](./src/assets/screenshot_material_ui.png)
+![Expense tracker](./src/assets/screenshot_materialui.png)
 
 **Date Picker:**
 - Replace the current date input field in the Expense Tracker with the MUI-X Date Picker (https://mui.com/x/react-date-pickers/date-picker/).
