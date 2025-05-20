@@ -28,7 +28,7 @@ Step one can be started after the TodoList is implemented in the course
 Step two can be started after the Material UI is studied in the course
 
 **Material UI component:**
-- Replace the `input` and `button` elements in the Expense Tracker with suitable Materia UI components.
+- Replace the `input` and `button` elements in the Expense Tracker with suitable Material UI components.
 
 **Date Picker:**
 - Replace the current date input field in the Expense Tracker with the MUI-X Date Picker (https://mui.com/x/react-date-pickers/date-picker/).
