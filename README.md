@@ -82,5 +82,4 @@ Budget screen:
 
 Statistics screen:
 
-![Expense tracker](./src/assets/budget_statistics.png)
-
+<img src="./src/assets/budget_statistics.png" alt="Statistics screen" style="width: 50%" />
