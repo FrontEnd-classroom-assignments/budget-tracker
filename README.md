@@ -23,7 +23,9 @@ Add validation:
 ### Create a new component: `BudgetItems`
 This component will be responsible for displaying the list of budget items in a table format. Show each item's description, amount, type, and date in the table.
 
-Include a "Delete" button for each row to remove items from the list. Receive the list of items and the delete handler via props from `BudgetTracker` component.
+Include a "Delete" button for each row to remove items from the list. 
+
+Receive the list of items and the delete handler via props from `BudgetTracker` component and display the `BudgetTracker` component in the `App` component.
 
 ### Usage and example screenshot
 1. Enter a description, amount, date, and select the type (income or expense).
