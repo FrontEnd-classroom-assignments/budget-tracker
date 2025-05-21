@@ -71,3 +71,16 @@ Move the state that holds your budget to a higher-level component such as `App` 
 
 You can read more about lifting state up in [React doucmentation](https://react.dev/learn/sharing-state-between-components)
 
+#### Examples
+Home screen:
+
+![Expense tracker](./src/assets/budget_home.png)
+
+Budget screen:
+
+![Expense tracker](./src/assets/budget_budget.png)
+
+Statistics screen:
+
+![Expense tracker](./src/assets/budget_settings.png)
+
