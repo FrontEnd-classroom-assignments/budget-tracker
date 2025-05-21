@@ -18,7 +18,7 @@ Step one can be started after the TodoList is implemented in the course
 2. Click **Add** to add it to the table.
 3. View all budget items in the table below. Use the **Delete** button to remove an expense.
 
-![Expense tracker](./src/assets/screenshot.png)
+<img src="./src/assets/screenshot" alt="Budget tracker" style="width: 70%" />
 
 ### Bonus
 - Display the current saldo (total balance) on the page, calculated as the sum of all budget item amounts.
@@ -32,7 +32,7 @@ Step two can be started after the Material UI is studied in the course. In this 
 - Replace the `input` and `button` elements in the Expense Tracker with suitable Material UI components.
 - Input elements and button should be horizontally aligned and add proper spacing and margins between each component to ensure user-friendly ui.
 
-![Expense tracker](./src/assets/screenshot_materialui.png)
+<img src="./src/assets/screenshot_materialui" alt="Material UI components" style="width: 70%" />
 
 **Date Picker:**
 - Replace the current date input field in the Expense Tracker with the MUI-X Date Picker (https://mui.com/x/react-date-pickers/date-picker/).
@@ -46,7 +46,7 @@ Remove the existing HTML table used to display budget item entries.
 - Configure appropriate columns, such as Title, Amount, Date, and any other relevant fields.
 - Enable useful features like sorting, filtering, and pagination for better user experience.
 
-![Expense tracker](./src/assets/screenshot_muigrid.png)
+<img src="./src/assets/screenshot_muigrid.png" alt="MUI-X data grid" style="width: 70%" />
 
 ### Bonus
 - Show the amount in 🔴 red color for expense items and 🟢 green color for income items.
@@ -74,11 +74,11 @@ You can read more about lifting state up in [React doucmentation](https://react.
 #### Examples
 Home screen:
 
-![Expense tracker](./src/assets/budget_home.png)
+<img src="./src/assets/budget_home.png" alt="Home screen" style="width: 50%" />
 
 Budget screen:
 
-![Expense tracker](./src/assets/budget_budget.png)
+<img src="./src/assets/budget_budget.png" alt="Budget screen" style="width: 50%" />
 
 Statistics screen:
 
