@@ -1,6 +1,6 @@
 # Budget Tracker Assignment
 
-Create a simple Budget Tracker built with React and TypeScript.
+Create a simple Budget Tracker built with React and TypeScript. **NOTE!** Create own branch from each step.
 ## Step 1
 Step one can be started after the TodoList is implemented in the course
 
