@@ -2,7 +2,7 @@
 
 Create a simple Budget Tracker built with React and TypeScript. 
 
-**NOTE!** Create own branch from each step.
+**NOTE!** Create own branch for each four steps (step1, step2, step3 and step4).
 
 ## Step 1
 Step one can be started after the TodoList is implemented in the course
