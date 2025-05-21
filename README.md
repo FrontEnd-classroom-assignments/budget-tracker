@@ -21,7 +21,7 @@ Add validation:
 **Note:** If the selected type is **Expense**, the amount should be saved as a negative value.
 
 ### Create a new component: `BudgetItems`
-This component will be responsible for displaying the list of budget items in a table format. Show each item's description, amount, type, and date in the table.
+This component will be responsible for displaying the list of budget items in a table format. Show each item's description, amount and date in the table.
 
 Include a "Delete" button for each row to remove items from the list. 
 
