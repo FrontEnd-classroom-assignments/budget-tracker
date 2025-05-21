@@ -82,5 +82,5 @@ Budget screen:
 
 Statistics screen:
 
-![Expense tracker](./src/assets/budget_settings.png)
+![Expense tracker](./src/assets/budget_statistics.png)
 
