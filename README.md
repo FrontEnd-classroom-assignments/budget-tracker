@@ -18,7 +18,7 @@ Add validation:
 - All fields must be filled in.
 - The amount must be a valid number (not empty, not negative, not NaN).
 
-**Note:** If the selected type is **expense**, the amount should be saved as a negative value.
+**Note:** If the selected type is **Expense**, the amount should be saved as a negative value.
 
 ### Create a new component: `BudgetItems`
 This component will be responsible for displaying the list of budget items in a table format. Show each item's description, amount, type, and date in the table.
