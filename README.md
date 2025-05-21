@@ -41,7 +41,7 @@ Receive the list of items and the delete handler via props from `BudgetTracker` 
 ## Step 2: Material UI
 Step two can be started after the Material UI is studied in the course. In this phase you'll enhance the Expense Tracker by using the Materia UI components.
 
-**Material UI component:**
+**Material UI components:**
 - Create an app bar for the application that show the header text Budget Tracker
 - Replace the `input` and `button` elements in the Expense Tracker with suitable Material UI components.
 - Input elements and button should be horizontally aligned and add proper spacing and margins between each component to ensure user-friendly ui.
