@@ -11,6 +11,7 @@ Step one can be started after the TodoList is implemented in the course
 - Create a new component: `BudgetTracker`
 - Add budget items with description, amount, type (income/expense), and date
 - Validation to ensure all fields are filled and the amount is a valid number
+- Create a new component: `BudgetItems`
 - View a list of all expenses in a table
 - Delete budget items from a table
 - Type-safe code using TypeScript
