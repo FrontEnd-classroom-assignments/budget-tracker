@@ -55,8 +55,11 @@ Remove the existing HTML table used to display budget item entries.
 ## Step 4: Routing
 This step can be started after the React Router is studied in the course.
 
-1.) Add React Router to your project
-2.) Implement two new components
-- Home: This component show welcome message to users.
-- Statistics: This component show the sum of expenses and incomes and the saldo.
-3.) Implement navigation and routing between them
+First, add React Router to your project
+
+Implement two new components:
+- `Home`: Displays a welcome message to users.
+- `Statistics`: Shows the total income, total expenses, and the saldo.
+
+Finally, implement navigation and routing between them
+
