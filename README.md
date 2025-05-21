@@ -24,7 +24,7 @@ Step one can be started after the TodoList is implemented in the course
 - Display the current saldo (total balance) on the page, calculated as the sum of all budget item amounts.
 - Monthly limit and alert.
 
-## Step 2
+## Step 2: Material UI
 Step two can be started after the Material UI is studied in the course. In this phase you'll enhance the Expense Tracker by using the Materia UI components.
 
 **Material UI component:**
@@ -38,8 +38,8 @@ Step two can be started after the Material UI is studied in the course. In this 
 - Replace the current date input field in the Expense Tracker with the MUI-X Date Picker (https://mui.com/x/react-date-pickers/date-picker/).
 - In the table where expense entries are listed, format the displayed date in format `yyyy-mm-dd`.
 
-## Step 3
-Step three can be started after the MUI-X DataGrid is studied in the course. In this step, you will upgrade the budget item list display by replacing the basic HTML table with the MUI-X `DataGrid` component for improved functionality.
+## Step 3: Datagrid
+This step can be started after the MUI-X DataGrid is studied in the course. In this step, you will upgrade the budget item list display by replacing the basic HTML table with the MUI-X `DataGrid` component for improved functionality.
 Remove the existing HTML table used to display budget item entries.
 
 - Implement the MUI-X `DataGrid` component to present the data instead.
@@ -51,3 +51,6 @@ Remove the existing HTML table used to display budget item entries.
 ### Bonus
 - Show the amount in 🔴 red color for expense items and 🟢 green color for income items.
 - Organize the DataGrid rows by type, grouping items into income and expense categories.
+
+## Step 4: Routing
+This step can be started after the React Router is studied in the course.
