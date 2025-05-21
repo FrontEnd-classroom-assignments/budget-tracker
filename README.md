@@ -8,6 +8,7 @@ Create a simple Budget Tracker built with React and TypeScript.
 Step one can be started after the TodoList is implemented in the course
 
 ### Features
+- Create a new component: `BudgetTracker`
 - Add budget items with description, amount, type (income/expense), and date
 - Validation to ensure all fields are filled and the amount is a valid number
 - View a list of all expenses in a table
