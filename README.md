@@ -7,18 +7,25 @@ Create a simple Budget Tracker built with React and TypeScript.
 ## Step 1
 Step one can be started after the TodoList is implemented in the course
 
-### Features
-- Create a new component: `BudgetTracker`
-- Add budget items with description, amount, type (income/expense), and date
-- Validation to ensure all fields are filled and the amount is a valid number
-- Create a new component: `BudgetItems`
-- View a list of all expenses in a table
-- Delete budget items from a table
-- Type-safe code using TypeScript
+### Create a new component: `BudgetTracker`
+In that component, implement a form that allows users to add budget items with the following fields:
+- Description (string)
+- Amount  (number)
+- Type: either "Income" or "Expense"
+- Date (string)
+
+Add validation:
+- All fields must be filled in.
+- The amount must be a valid number (not empty, not negative, not NaN).
 
 **Note:** If the selected type is **expense**, the amount should be saved as a negative value.
 
-### Usage
+### Create a new component: `BudgetItems`
+This component will be responsible for displaying the list of budget items in a table format. Show each item's description, amount, type, and date in the table.
+
+Include a "Delete" button for each row to remove items from the list. Receive the list of items and the delete handler via props from `BudgetTracker` component.
+
+### Usage and example screenshot
 1. Enter a description, amount, date, and select the type (income or expense).
 2. Click **Add** to add it to the table.
 3. View all budget items in the table below. Use the **Delete** button to remove an expense.
