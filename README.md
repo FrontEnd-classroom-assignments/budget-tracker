@@ -63,3 +63,11 @@ Implement two new components:
 
 Finally, implement navigation and routing between them
 
+**Tips**
+If you notice that your expenses and incomes disappear when navigating between pages, it's likely because the data is stored in a component that gets unmounted when the route changes.
+
+To fix this, try lifting the state up:
+Move the state that holds your budget to a higher-level component such as `App` so it stays in memory while switching between pages. Then, pass it down as props to the components that need it.
+
+You can read more about lifting state up in [React doucmentation](https://react.dev/learn/sharing-state-between-components)
+
