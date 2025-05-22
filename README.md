@@ -28,7 +28,7 @@ Include a "Delete" button for each row to remove items from the list.
 Receive the list of items and the delete handler via props from `BudgetTracker` component and display the `BudgetTracker` component in the `App` component.
 
 ### Usage and example screenshot
-1. Enter a description, amount, date, and select the type (income or expense).
+1. Enter a description, amount, date, and select the type (Income or Expense).
 2. Click **Add** to add it to the table.
 3. View all budget items in the table below. Use the **Delete** button to remove an expense.
 
