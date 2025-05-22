@@ -45,9 +45,9 @@ Receive the list of items and the delete handler via props from `BudgetTracker` 
 - Monthly limit and alert.
 
 ## Step 2: Material UI
-First, create a new branch `step2`.
-
 Step two can be started after the Material UI is studied in the course. In this phase you'll enhance the Expense Tracker by using the Materia UI components.
+
+First, create a new branch `step2`.
 
 **Material UI components:**
 - Create an app bar for the application that show the header text Budget Tracker
@@ -61,10 +61,11 @@ Step two can be started after the Material UI is studied in the course. In this 
 - In the table where expense entries are listed, format the displayed date in format `yyyy-mm-dd`.
 
 ## Step 3: Datagrid
-First, create a new branch `step3`.
 
 This step can be started after the MUI-X DataGrid is studied in the course. In this step, you will upgrade the budget item list display by replacing the basic HTML table with the MUI-X `DataGrid` component for improved functionality.
 Remove the existing HTML table used to display budget item entries.
+
+First, create a new branch `step3`.
 
 - Implement the MUI-X `DataGrid` component to present the data instead.
 - Configure appropriate columns, such as Title, Amount, Date, and any other relevant fields.
@@ -77,11 +78,11 @@ Remove the existing HTML table used to display budget item entries.
 - Organize the DataGrid rows by type, grouping items into income and expense categories.
 
 ## Step 4: Routing
-First, create a new branch `step4`.
-
 This step can be started after the React Router is studied in the course.
 
-First, add React Router to your project
+First, create a new branch `step4`.
+
+Add React Router to your project
 
 Implement two new components:
 - `Home`: Displays a welcome message to users.
