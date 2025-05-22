@@ -3,7 +3,10 @@
 Create a simple Budget Tracker built with React and TypeScript. This assignment contains multiple steps (sub assignments) and these are divided to multiple weeks.
 
 > [!IMPORTANT]
->  Create own branch for each four steps using the following names: step1, step2, step3 and step4.
+> First step is done to the main branch. Create own branch for each three steps 2-4 using the following names: step2, step3 and step4.
+> When starting a new step, always create a new branch with the corresponding name for example, `git checkout -b step2`.
+> Make your changes for each step only in its own branch.
+> After completing changes for a step, commit them to the appropriate branch before moving on to the next step/branch.
 
 ## Step 1
 Step one can be started after the TodoList is implemented in the course
