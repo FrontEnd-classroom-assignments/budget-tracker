@@ -17,6 +17,7 @@ Lisää "Add"-painke. Kun painiketta klikataan, tallenetaan syötetty meno tai t
 Lisää validointi:
 - Kaikki kentät on täytettävä.
 - Määrän on oltava kelvollinen numero (ei tyhjä, negatiivinen tai NaN).
+- Jos validoinnin ehdot ei täyty, näytetään käyttäjälle viesti ja syötettyjä arvoja ei tallenneta.
 
 ### Luo uusi komponentti: `BudgetItems`.
 
