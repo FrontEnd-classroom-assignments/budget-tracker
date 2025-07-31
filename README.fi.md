@@ -75,20 +75,24 @@ Tämän vaiheen voi aloittaa, kun kurssilla on opiskeltu React Router.
 - `Home`: Näyttää tervetuloviestin käyttäjälle.
 - `Statistics`: Näyttää kokonaistulot, kokonaismenot ja saldon.
 
-### Toteuta lopuksi navigointi ja reititys näiden välillä.
+### Toteuta navigointi ja reititys komponenttien välillä.
+- Toteuta reititus, jossa käyttäjä voi navigoida `Home`, `BudgetTracker` ja `Statistics` komponenttien välillä. 
 
-[!TIP] Jos huomaat, että menot ja tulot katoavat sivujen välillä navigoidessa, se johtuu todennäköisesti siitä, että data säilytetään komponentissa, joka unmountataan reitin vaihtuessa. Kun komponentti mountataan uudelleen, luodaan uusi tilan instanssi.
+[!TIP] Jos huomaat, että menot ja tulot katoavat sivujen välillä navigoidessa, se johtuu todennäköisesti siitä, että data säilytetään komponentissa, joka "unmountataan" reitin vaihtuessa. Kun komponentti "mountataan" uudelleen, luodaan uusi instanssi state:sta ja tiedot katoavat.
 
-Korjaa tämä nostamalla tila ylemmälle komponenttitasolle: Siirrä budjetin sisältävä tila ylemmälle komponentille, kuten `App`, jotta se pysyy muistissa sivujen välillä. Anna tila propsina niille komponenteille, jotka sitä tarvitsevat.
+Korjaa tämä nostamalla state ylemmälle komponenttitasolle: Siirrä budjetin sisältävä tila ylemmälle komponentille, kuten `App`, jotta se pysyy muistissa sivujen välillä. Välitä state propsina niille komponenteille, jotka sitä tarvitsevat.
 
-Lue lisää tilan nostamisesta Reactin dokumentaatiosta
+Lue lisää tilan nostamisesta Reactin dokumentaatiosta:
 
 Esimerkit:
 Kotisivu:
+
 <img src="./src/assets/budget_home.png" alt="Kotisivu" style="width: 50%" />
 
 Budjetti-sivu:
+
 <img src="./src/assets/budget_budget.png" alt="Budjetti-sivu" style="width: 50%" />
 
 Tilastot-sivu:
+
 <img src="./src/assets/budget_statistics.png" alt="Tilastot-sivu" style="width: 50%" />
