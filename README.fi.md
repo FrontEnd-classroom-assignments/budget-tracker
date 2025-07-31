@@ -25,7 +25,7 @@ Tämä komponentti vastaa budjetin rivien näyttämisestä taulukkona. Näytä k
 
 Lisää "Delete"-painike jokaiselle riville, jolla voi poistaa rivin listasta.
 
-Lähetä lista ja poisto-funktio props:ien kautta `BudgetTracker`-komponentilta `BudgetItems` komponentille.
+Lähetä lista (state, johon tiedot on tallennettu) ja poisto-funktio props:ien kautta `BudgetTracker`-komponentilta `BudgetItems` komponentille.
 Lopuksi näytä `BudgetTracker`-komponentti `App`-komponentissa.
 
 ### Esimerkkikuvat
@@ -43,18 +43,18 @@ Lopuksi näytä `BudgetTracker`-komponentti `App`-komponentissa.
 Toisen vaiheen voi aloittaa, kun kurssilla on opiskeltu Material UI. Tässä vaiheessa parannat budjettilaskuria käyttämällä Material UI:n komponentteja.
 
 ### Material UI -komponentit
-- Luo sovellukselle app bar, jossa näkyy otsikkoteksti Budjettilaskuri.
-- Korvaa Expense Trackerissa käytetyt input- ja button-elementit sopivilla Material UI -komponenteilla.
+- Luo sovellukselle app bar, jossa näkyy otsikkoteksti Budget Tracker.
+- Korvaa sovelluksessa käytetyt `input`- ja `button`-elementit sopivilla Material UI -komponenteilla.
 - Syöttökentät ja painike tulee asettaa vaakasuoraan sekä lisätä sopivat välit ja marginaalit, jotta käyttöliittymä on käyttäjäystävällinen.
 
 <img src="./src/assets/screenshot_materialui.png" alt="Material UI -komponentit" style="width: 70%" />
 
 **Date Picker**
-- Korvaa Expense Trackerin nykyinen päivämääräkenttä MUI-X Date Pickerillä (https://mui.com/x/react-date-pickers/date-picker/).
+- Korvaa sovelluksen nykyinen päivämääräkenttä MUI-X Date Picker komponentilla (https://mui.com/x/react-date-pickers/date-picker/).
 - Taulukossa, jossa menot ja kulut näytetään, esitä päivämäärä muodossa vvvv-kk-pp.
 
 ## Vaihe 3: Datagrid
-Tämän vaiheen voi aloittaa, kun kurssilla on opiskeltu MUI-X DataGrid. Tässä vaiheessa päivität budjetin rivien näytön korvaamalla perinteisen HTML-taulukon MUI-X:n DataGrid-komponentilla paremman toiminnallisuuden vuoksi. Poista käytössä oleva HTML-taulukko budjetin rivien näyttämisestä.
+Tämän vaiheen voi aloittaa, kun kurssilla on opiskeltu MUI-X DataGrid. Tässä vaiheessa päivität budjetin rivien näytön korvaamalla perinteisen HTML-taulukon MUI-X:n DataGrid-komponentilla paremman toiminnallisuuden vuoksi. Poista käytössä oleva HTML-taulukko `BudgetItems` komponentista.
 
 Toteuta MUI-X:n DataGrid-komponentti datan esittämiseen.
 - Määritä datagrid:in sarakkeet.
@@ -71,11 +71,11 @@ Tämän vaiheen voi aloittaa, kun kurssilla on opiskeltu React Router.
 
 - Asenna React Router projektiin.
  
-Toteuta kaksi uutta komponenttia:
+### Toteuta kaksi uutta komponenttia:
 - `Home`: Näyttää tervetuloviestin käyttäjälle.
- `Statistics`: Näyttää kokonaistulot, kokonaismenot ja saldon.
+- `Statistics`: Näyttää kokonaistulot, kokonaismenot ja saldon.
 
-Toteuta lopuksi navigointi ja reititys näiden välillä.
+### Toteuta lopuksi navigointi ja reititys näiden välillä.
 
 [!TIP] Jos huomaat, että menot ja tulot katoavat sivujen välillä navigoidessa, se johtuu todennäköisesti siitä, että data säilytetään komponentissa, joka unmountataan reitin vaihtuessa. Kun komponentti mountataan uudelleen, luodaan uusi tilan instanssi.
 
