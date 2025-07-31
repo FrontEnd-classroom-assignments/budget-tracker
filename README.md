@@ -1,3 +1,5 @@
+[Suomenkielinen tehtävänanto (README.fi.md)](README.fi.md)
+
 # Budget Tracker Assignment
 
 Create a simple Budget Tracker built with React and TypeScript. This assignment contains multiple steps (sub assignments) and these are divided to multiple weeks.
