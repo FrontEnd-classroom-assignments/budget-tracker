@@ -76,7 +76,7 @@ Tämän vaiheen voi aloittaa, kun kurssilla on opiskeltu React Router.
 - `Statistics`: Näyttää kokonaistulot, kokonaismenot ja saldon.
 
 ### Toteuta navigointi ja reititys komponenttien välillä.
-- Toteuta reititus, jossa käyttäjä voi navigoida `Home`, `BudgetTracker` ja `Statistics` komponenttien välillä. 
+- Toteuta reititys, jossa käyttäjä voi navigoida `Home`, `BudgetTracker` ja `Statistics` komponenttien välillä. 
 
 > [!TIP] Jos huomaat, että menot ja tulot katoavat sivujen välillä navigoidessa, se johtuu todennäköisesti siitä, että data säilytetään komponentissa
 > , joka "unmountataan" reitin vaihtuessa. Kun komponentti "mountataan" uudelleen, luodaan uusi instanssi state:sta ja tiedot katoavat.
