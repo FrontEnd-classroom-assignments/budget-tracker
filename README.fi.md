@@ -78,11 +78,13 @@ Tämän vaiheen voi aloittaa, kun kurssilla on opiskeltu React Router.
 ### Toteuta navigointi ja reititys komponenttien välillä.
 - Toteuta reititus, jossa käyttäjä voi navigoida `Home`, `BudgetTracker` ja `Statistics` komponenttien välillä. 
 
-[!TIP] Jos huomaat, että menot ja tulot katoavat sivujen välillä navigoidessa, se johtuu todennäköisesti siitä, että data säilytetään komponentissa, joka "unmountataan" reitin vaihtuessa. Kun komponentti "mountataan" uudelleen, luodaan uusi instanssi state:sta ja tiedot katoavat.
+> [!TIP] Jos huomaat, että menot ja tulot katoavat sivujen välillä navigoidessa, se johtuu todennäköisesti siitä, että data säilytetään komponentissa
+> , joka "unmountataan" reitin vaihtuessa. Kun komponentti "mountataan" uudelleen, luodaan uusi instanssi state:sta ja tiedot katoavat.
+>
+> Korjaa tämä nostamalla state ylemmälle komponenttitasolle: Siirrä budjetin sisältävä tila ylemmälle komponentille, kuten `App`, jotta se pysyy muistissa sivujen välillä. > Välitä state propsina niille komponenteille, jotka sitä tarvitsevat.
+>
+>Lue lisää tilan nostamisesta [React dokumentaatiosta](https://react.dev/learn/sharing-state-between-components)
 
-Korjaa tämä nostamalla state ylemmälle komponenttitasolle: Siirrä budjetin sisältävä tila ylemmälle komponentille, kuten `App`, jotta se pysyy muistissa sivujen välillä. Välitä state propsina niille komponenteille, jotka sitä tarvitsevat.
-
-Lue lisää tilan nostamisesta Reactin dokumentaatiosta:
 
 Esimerkit:
 Kotisivu:
