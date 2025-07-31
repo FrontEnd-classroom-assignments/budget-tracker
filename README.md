@@ -80,7 +80,7 @@ Implement two new components:
 - `Home`: Displays a welcome message to users.
 - `Statistics`: Shows the total income, total expenses, and the saldo.
 
-Finally, implement navigation and routing between them
+Implement routing that allows the user to navigate between the `Home`, `BudgetTracker`, and `Statistics` components.
 
 > [!TIP]
 > If you notice that your expenses and incomes disappear when navigating between pages, it's likely because the data is stored in a component that gets unmounted when the > route changes. Then, when it's mounted again, a new instance of the state is created.
