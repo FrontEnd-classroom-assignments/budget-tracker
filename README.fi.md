@@ -28,7 +28,7 @@ Lisää "Delete"-painike jokaiselle riville, jolla voi poistaa rivin listasta.
 Lähetä lista ja poisto-funktio props:ien kautta `BudgetTracker`-komponentilta `BudgetItems` komponentille.
 Lopuksi näytä `BudgetTracker`-komponentti `App`-komponentissa.
 
-Käyttö ja esimerkkikuva:
+### Esimerkkikuvat
 - Syötä kuvaus, määrä, päivämäärä ja valitse tyyppi (Income tai Expense).
 - Klikkaa "Add"-painiketta lisätäksesi rivin taulukkoon.
 - Näet kaikki budjetin rivit alla olevassa taulukossa. Käytä "Delete"-painiketta rivin poistamiseen.
