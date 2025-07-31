@@ -12,7 +12,7 @@ Toteuta tähän komponenttiin lomake, jonka avulla käyttäjä voi lisätä budj
 - Type: arvo voi olla joko "Income" tai "Expense"
 - Date (string)
   
-Lisää "Add"-painke. Kun painiketta klikataan, tallenetaan syötetty meno tai tulo taulukkoa muotoiseen state:en. Jos valittu Type on "Expense", määrä (amount) tallennetaan negatiivisena arvona.
+Lisää "Add"-painke. Kun painiketta klikataan, tallenetaan syötetty meno tai tulo taulukko muotoiseen state:en. Jos valittu Type on "Expense", määrä (amount) tallennetaan negatiivisena arvona.
 
 Lisää validointi:
 - Kaikki kentät on täytettävä.
