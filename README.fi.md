@@ -1,5 +1,5 @@
 # Budjettilaskuri-tehtävä
-Tee yksinkertainen budjettilaskuri Reactilla ja TypeScriptillä. Tämä tehtävä sisältää useita vaiheita (osatehtäviä), jotka on jaettu useille viikoille.
+Tee budjettilaskuri sovellus React:lla ja TypeScript:llä. Tämä tehtävä sisältää useita vaiheita (osatehtäviä), jotka on jaettu useille viikoille.
 
 ## Vaihe 1
 Ensimmäisen vaiheen voi aloittaa, kun TodoList-esimerkki on toteutettu.
