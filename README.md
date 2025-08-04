@@ -1,10 +1,10 @@
 [Suomenkielinen tehtävänanto (README.fi.md)](README.fi.md)
 
-# Budget Tracker Assignment
+# Budget Tracker (Total 12 points)
 
 Create a simple Budget Tracker built with React and TypeScript. This assignment contains multiple steps (sub assignments) and these are divided to multiple weeks.
 
-## Step 1
+## Step 1 (3 points)
 Step one can be started after the TodoList is implemented in the course
 
 ### Create a new component: `BudgetTracker`
@@ -38,7 +38,7 @@ Receive the list of items and the delete handler via props from `BudgetTracker` 
 - Display the current saldo (total balance) on the page, calculated as the sum of all budget item amounts.
 - Monthly limit and alert.
 
-## Step 2: Material UI
+## Step 2: Material UI (3 points)
 Step two can be started after the Material UI is studied in the course. In this phase you'll enhance the Expense Tracker by using the Materia UI components.
 
 First, create a new branch `step2`.
@@ -54,7 +54,7 @@ First, create a new branch `step2`.
 - Replace the current date input field in the Expense Tracker with the MUI-X Date Picker (https://mui.com/x/react-date-pickers/date-picker/).
 - In the table where expense entries are listed, format the displayed date in format `yyyy-mm-dd`.
 
-## Step 3: Datagrid
+## Step 3: Datagrid (3 points)
 
 This step can be started after the MUI-X DataGrid is studied in the course. In this step, you will upgrade the budget item list display by replacing the basic HTML table with the MUI-X `DataGrid` component for improved functionality.
 Remove the existing HTML table used to display budget item entries.
@@ -71,7 +71,7 @@ First, create a new branch `step3`.
 - Show the amount in 🔴 red color for expense items and 🟢 green color for income items.
 - Organize the DataGrid rows by type, grouping items into income and expense categories.
 
-## Step 4: Routing
+## Step 4: Routing (3 points)
 This step can be started after the React Router is studied in the course.
 
 First, create a new branch `step4`.
