@@ -76,13 +76,12 @@ This step can be started after the React Router is studied in the course.
 
 First, create a new branch `step4`.
 
-Add React Router to your project
+Add React Router to your project.
 
-Implement two new components:
+Implement a new component:
 - `Home`: Displays a welcome message to users.
-- `Statistics`: Shows the total income, total expenses, and the saldo.
 
-Implement routing that allows the user to navigate between the `Home`, `BudgetTracker`, and `Statistics` components.
+Implement routing that allows the user to navigate between the `Home` and `BudgetTracker` components.
 
 > [!TIP]
 > If you notice that your expenses and incomes disappear when navigating between pages, it's likely because the data is stored in a component that gets unmounted when the > route changes. Then, when it's mounted again, a new instance of the state is created.
@@ -91,6 +90,11 @@ Implement routing that allows the user to navigate between the `Home`, `BudgetTr
 > Move the state that holds your budget to a higher-level component such as `App` so it stays in memory while switching between pages. Then, pass it down as props to the > > components that need it.
 >
 > You can read more about lifting state up in [React doucmentation](https://react.dev/learn/sharing-state-between-components)
+
+Implement a new component:
+- `Statistics`: Shows the total income, total expenses, and the saldo.
+
+Update routing that allows the user to navigate between the `Home`, `BudgetTracker`, and `Statistics` components.
 
 #### Examples
 Home screen:
