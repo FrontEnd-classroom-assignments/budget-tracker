@@ -76,7 +76,7 @@ This step can be started after the React Router is studied in the course.
 
 First, create a new branch `step4`.
 
-Add React Router to your project.
+Install React Router to your project.
 
 Implement a new component:
 - `Home`: Displays a welcome message to users.
@@ -91,10 +91,16 @@ Implement routing that allows the user to navigate between the `Home` and `Budge
 >
 > You can read more about lifting state up in [React doucmentation](https://react.dev/learn/sharing-state-between-components)
 
-After, you have lifted state to the `App component` and you have verified that state is persistent, implement one more component:
-- `Statistics`: Shows the total income, total expenses, and the saldo.
+Once your state is lifted to `App` component, create a new component called `Statistic.
+It should display:
+- Total income
+- Total expenses
+- Saldo (income – expenses)
 
-Update routing that allows the user to navigate between the `Home`, `BudgetTracker`, and `Statistics` components.
+Use the shared state to calculate and display these values. Then, update your routing so that the user can navigate between:
+- Home
+- BudgetTracker
+- Statistics
 
 #### Examples
 Home screen:
