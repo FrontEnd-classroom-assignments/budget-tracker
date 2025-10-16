@@ -91,7 +91,7 @@ Implement routing that allows the user to navigate between the `Home` and `Budge
 >
 > You can read more about lifting state up in [React doucmentation](https://react.dev/learn/sharing-state-between-components)
 
-Implement a new component:
+After, you notice that state is persistent, implement one more component:
 - `Statistics`: Shows the total income, total expenses, and the saldo.
 
 Update routing that allows the user to navigate between the `Home`, `BudgetTracker`, and `Statistics` components.
