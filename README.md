@@ -91,7 +91,9 @@ Implement routing that allows the user to navigate between the `Home` and `Budge
 >
 > You can read more about lifting state up in [React doucmentation](https://react.dev/learn/sharing-state-between-components)
 
-Once your state is lifted to `App` component, create a new component called `Statistic.
+Once your state is lifted to `App` component you can test that the data is persistent by adding a few budget items on the Budget page, navigating to the Home page, and then returning to the Budget page the items should still be there.
+
+Finally, create a new component called `Statistic`.
 It should display:
 - Total income
 - Total expenses
